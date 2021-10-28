@@ -72,18 +72,18 @@ Signed-off-by: Heiko Stuebner <heiko@sntech.de>
 +
 +		lan_led: led-lan {
 +			gpios = <&gpio1 RK_PA1 GPIO_ACTIVE_HIGH>;
-+			label = "nanopi-r4s:green:lan";
++			label = "green:lan";
 +		};
 +
 +		sys_led: led-sys {
 +			gpios = <&gpio0 RK_PB5 GPIO_ACTIVE_HIGH>;
-+			label = "nanopi-r4s:red:sys";
++			label = "red:sys";
 +			default-state = "on";
 +		};
 +
 +		wan_led: led-wan {
 +			gpios = <&gpio1 RK_PA0 GPIO_ACTIVE_HIGH>;
-+			label = "nanopi-r4s:green:wan";
++			label = "green:wan";
 +		};
 +	};
 +
